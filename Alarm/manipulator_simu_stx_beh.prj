@@ -1,0 +1,5 @@
+verilog isim_temp "Up_counter_2bit.v"
+verilog isim_temp "dec2x4.v"
+verilog isim_temp "ring_counter.v"
+verilog isim_temp "manipulator_simu.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

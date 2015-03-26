@@ -1,0 +1,17 @@
+Net "CLK" LOC = "B8";
+Net"Led" LOC ="G1";
+Net"x1" LOC ="A7";
+Net "x2" LOC ="M4";
+//Net "x3" LOC ="C11";
+Net "reset" LOC ="P11";
+Net "s[6]" LOC ="L14";
+Net "s[5]" LOC ="H12";
+Net "s[4]" LOC ="N14";
+Net "s[3]" LOC ="N11";
+Net "s[2]" LOC ="P12";
+Net "s[1]" LOC ="L13";
+Net "s[0]" LOC ="M12";
+Net "temp_manipulator[3]" LOC ="F12";
+Net "temp_manipulator[2]" LOC ="J12";
+Net "temp_manipulator[1]" LOC ="M13";
+Net "temp_manipulator[0]" LOC ="K14";

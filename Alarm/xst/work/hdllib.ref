@@ -1,0 +1,11 @@
+MO clk_divider2 NULL clk_divider2.v vlg62/clk__divider2.bin 1399322976
+MO ring_counter NULL ring_counter.v vlg3B/ring__counter.bin 1399322976
+MO dec2x4 NULL dec2x4.v vlg0E/dec2x4.bin 1399322976
+MO clk_divider NULL clk_divider.v vlg70/clk__divider.bin 1399322976
+MO Rising_Edge_Detector NULL Rising_Edge_Detector.v vlg65/_rising___edge___detector.bin 1399322976
+MO Clock NULL isa.v vlg00/_clock.bin 1399289895
+MO UpCounter_SyncReset NULL Up_counter_2bit.v vlg68/_up_counter___sync_reset.bin 1399322976
+MO de_7seg NULL dec.v vlg52/de__7seg.bin 1399322976
+MO beginning NULL beginning.v vlg51/beginning.bin 1399322976
+MO Debouncing NULL debouncing.v vlg26/_debouncing.bin 1399322976
+MO D_flipflop NULL D_flipflop.v vlg2F/_d__flipflop.bin 1399322976
