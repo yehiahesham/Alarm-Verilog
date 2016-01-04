@@ -1,0 +1,30 @@
+NET "postion_state[0]" LOC="M12";
+NET "postion_state[1]" LOC="L13";
+NET "postion_state[2]" LOC="P12";
+NET "postion_state[3]" LOC="N11";
+NET "postion_state[4]" LOC="N14";
+NET "postion_state[5]" LOC="H12";
+NET "postion_state[6]" LOC="L14";
+NET "key_a" LOC="A7";
+NET "key_b" LOC="M4";
+NET "key_c" LOC="C11";
+NET "key_d" LOC="G12";
+NET "reset" LOC="N3";
+NET "clk" LOC="B8";
+NET "Led2[0]"LOC="M5";
+NET "Led2[1]"LOC="M11";
+
+NET "x[3]" LOC="G1";
+NET "x[2]" LOC="P4";
+NET "x[1]" LOC="N4";
+NET "x[0]" LOC="N5";
+NET "selector[0]" LOC="F12";
+NET "selector[1]" LOC="J12";
+NET "selector[2]" LOC="M13";
+NET "selector[3]" LOC="K14";
+NET "dot" LOC ="N13";
+NET "M_CLK" LOC ="B2";
+NET "LR_CLK" LOC ="A3";
+NET "S_CLK" LOC ="J3";
+NET "Sin" LOC ="B5";
+

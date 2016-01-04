@@ -1,0 +1,1366 @@
+xst -intstyle ise -ifn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.xst" -ofn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.xst" -ofn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.xst" -ofn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.xst" -ofn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.xst" -ofn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.xst" -ofn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.xst" -ofn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.xst" -ofn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.xst" -ofn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.xst" -ofn "C:/Users/raoufossama.AUC/Desktop/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/EX9/EX_9_4/digital_loc.xst" -ofn "I:/EX9/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Downloads/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Downloads/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Downloads/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Downloads/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+xst -intstyle ise -ifn "C:/Users/yehia/Downloads/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Downloads/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "F:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "F:/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/Project Alarm/experements link2/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/Project Alarm/experements link2/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "I:/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/yehiahesham/Desktop/experements link3/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "I:/experements link3, laba/doctor sh3lan - Copy/EX_9_4 first/digital_loc.xst" -ofn "I:/experements link3, laba/doctor sh3lan - Copy/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.xst" -ofn "C:/Users/ahmadabdalla/Desktop/EX_9_4 first/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.xst" -ofn "C:/Users/yehiahesham.AUC/Desktop/experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 digital_loc.ngc digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/experment on experimenting/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 
+xst -intstyle ise -ifn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.xst" -ofn "C:/Users/yehia/Desktop/experiment/first try to collect all - Copy/digital_loc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EX9_4.ucf -p xc3s100e-cp132-4 "digital_loc.ngc" digital_loc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o digital_loc_map.ncd digital_loc.ngd digital_loc.pcf 
+par -w -intstyle ise -ol high -t 1 digital_loc_map.ncd digital_loc.ncd digital_loc.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml digital_loc.twx digital_loc.ncd -o digital_loc.twr digital_loc.pcf -ucf EX9_4.ucf 
+bitgen -intstyle ise -f digital_loc.ut digital_loc.ncd 

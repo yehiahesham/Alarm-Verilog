@@ -1,0 +1,36 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Tue May 20 09:02:22 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Led2<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "Led2<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Sin" LOCATE = SITE "B5" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "x<0>" LOCATE = SITE "N5" LEVEL 1;
+COMP "x<1>" LOCATE = SITE "N4" LEVEL 1;
+COMP "x<2>" LOCATE = SITE "P4" LEVEL 1;
+COMP "x<3>" LOCATE = SITE "G1" LEVEL 1;
+COMP "M_CLK" LOCATE = SITE "B2" LEVEL 1;
+COMP "S_CLK" LOCATE = SITE "J3" LEVEL 1;
+COMP "dot" LOCATE = SITE "N13" LEVEL 1;
+COMP "selector<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "selector<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "selector<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "selector<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "key_a" LOCATE = SITE "A7" LEVEL 1;
+COMP "key_b" LOCATE = SITE "M4" LEVEL 1;
+COMP "key_c" LOCATE = SITE "C11" LEVEL 1;
+COMP "key_d" LOCATE = SITE "G12" LEVEL 1;
+COMP "reset" LOCATE = SITE "N3" LEVEL 1;
+COMP "LR_CLK" LOCATE = SITE "A3" LEVEL 1;
+COMP "postion_state<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "postion_state<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "postion_state<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "postion_state<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "postion_state<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "postion_state<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "postion_state<6>" LOCATE = SITE "L14" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

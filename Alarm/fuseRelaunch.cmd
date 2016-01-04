@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/yehia/Desktop/Project Alarm/Alarm/manipulator_simu_isim_beh.exe" -prj "C:/Users/yehia/Desktop/Project Alarm/Alarm/manipulator_simu_beh.prj" "work.manipulator_simu" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/yehia/Desktop/experiment/first try to collect all/smiu_isim_beh.exe" -prj "C:/Users/yehia/Desktop/experiment/first try to collect all/smiu_beh.prj" "work.smiu" "work.glbl" 

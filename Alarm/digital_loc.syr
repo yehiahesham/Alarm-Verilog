@@ -1,0 +1,1130 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: digital_loc.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "digital_loc.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "digital_loc"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : digital_loc
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sd.v" in library work
+Compiling verilog file "clk3.v" in library work
+Module <UpCounter_SyncReset> compiled
+Compiling verilog file "clk2.v" in library work
+Module <clk3> compiled
+Compiling verilog file "clk1.v" in library work
+Module <clk2> compiled
+Compiling verilog file "c.v" in library work
+Module <clk1> compiled
+Compiling verilog file "ll.v" in library work
+Module <D_flipflop> compiled
+Compiling verilog file "I2s.v" in library work
+Module <Rising_Edge_Detector> compiled
+Compiling verilog file "Dec.v" in library work
+Module <I2s> compiled
+Compiling verilog file "Debouncing.v" in library work
+Module <dec> compiled
+Compiling verilog file "clock_divider.v" in library work
+Module <Debouncing> compiled
+Compiling verilog file "digital_loc.v" in library work
+Module <ClockDivider> compiled
+Module <digital_loc> compiled
+No errors in compilation
+Analysis of file <"digital_loc.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <digital_loc> in library <work> with parameters.
+	state_Adjust_AH1 = "1001"
+	state_Adjust_AH2 = "1000"
+	state_Adjust_Amin1 = "0111"
+	state_Adjust_Amin2 = "0110"
+	state_Adjust_H1 = "0101"
+	state_Adjust_H2 = "0100"
+	state_Adjust_X = "1111"
+	state_Adjust_min1 = "0011"
+	state_Adjust_min2 = "0010"
+	state_Clock = "0001"
+	state_Pause = "1010"
+	state_Stop_A = "1011"
+
+Analyzing hierarchy for module <ClockDivider> in library <work>.
+
+Analyzing hierarchy for module <Debouncing> in library <work>.
+
+Analyzing hierarchy for module <Rising_Edge_Detector> in library <work> with parameters.
+	EDGE = "10"
+	ONE = "00"
+	X = "11"
+	ZERO = "01"
+
+Analyzing hierarchy for module <I2s> in library <work>.
+
+Analyzing hierarchy for module <dec> in library <work>.
+
+Analyzing hierarchy for module <D_flipflop> in library <work>.
+
+Analyzing hierarchy for module <clk1> in library <work>.
+
+Analyzing hierarchy for module <clk2> in library <work>.
+
+Analyzing hierarchy for module <clk3> in library <work>.
+
+Analyzing hierarchy for module <UpCounter_SyncReset> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <digital_loc>.
+	state_Adjust_AH1 = 4'b1001
+	state_Adjust_AH2 = 4'b1000
+	state_Adjust_Amin1 = 4'b0111
+	state_Adjust_Amin2 = 4'b0110
+	state_Adjust_H1 = 4'b0101
+	state_Adjust_H2 = 4'b0100
+	state_Adjust_X = 4'b1111
+	state_Adjust_min1 = 4'b0011
+	state_Adjust_min2 = 4'b0010
+	state_Clock = 4'b0001
+	state_Pause = 4'b1010
+	state_Stop_A = 4'b1011
+Module <digital_loc> is correct for synthesis.
+ 
+Analyzing module <ClockDivider> in library <work>.
+Module <ClockDivider> is correct for synthesis.
+ 
+Analyzing module <Debouncing> in library <work>.
+Module <Debouncing> is correct for synthesis.
+ 
+Analyzing module <D_flipflop> in library <work>.
+Module <D_flipflop> is correct for synthesis.
+ 
+Analyzing module <Rising_Edge_Detector> in library <work>.
+	EDGE = 2'b10
+	ONE = 2'b00
+	X = 2'b11
+	ZERO = 2'b01
+Module <Rising_Edge_Detector> is correct for synthesis.
+ 
+Analyzing module <I2s> in library <work>.
+INFO:Xst:1432 - Contents of array <data> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <data> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Module <I2s> is correct for synthesis.
+ 
+Analyzing module <clk1> in library <work>.
+Module <clk1> is correct for synthesis.
+ 
+Analyzing module <clk2> in library <work>.
+Module <clk2> is correct for synthesis.
+ 
+Analyzing module <clk3> in library <work>.
+Module <clk3> is correct for synthesis.
+ 
+Analyzing module <dec> in library <work>.
+Module <dec> is correct for synthesis.
+ 
+Analyzing module <UpCounter_SyncReset> in library <work>.
+Module <UpCounter_SyncReset> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ClockDivider>.
+    Related source file is "clock_divider.v".
+    Found 1-bit register for signal <out>.
+    Found 32-bit up counter for signal <i>.
+    Found 33-bit comparator less for signal <i$cmp_lt0000> created at line 33.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <ClockDivider> synthesized.
+
+
+Synthesizing Unit <Rising_Edge_Detector>.
+    Related source file is "ll.v".
+INFO:Xst:1799 - State 11 is never reached in FSM <state>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 01                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Rising_Edge_Detector> synthesized.
+
+
+Synthesizing Unit <D_flipflop>.
+    Related source file is "c.v".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <D_flipflop> synthesized.
+
+
+Synthesizing Unit <clk1>.
+    Related source file is "clk1.v".
+    Found 1-bit register for signal <out>.
+    Found 32-bit up counter for signal <i>.
+    Found 33-bit comparator less for signal <i$cmp_lt0000> created at line 34.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <clk1> synthesized.
+
+
+Synthesizing Unit <clk2>.
+    Related source file is "clk2.v".
+    Found 1-bit register for signal <out>.
+    Found 32-bit up counter for signal <i>.
+    Found 33-bit comparator less for signal <i$cmp_lt0000> created at line 34.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <clk2> synthesized.
+
+
+Synthesizing Unit <clk3>.
+    Related source file is "clk3.v".
+    Found 1-bit register for signal <out>.
+    Found 32-bit up counter for signal <i>.
+    Found 33-bit comparator less for signal <i$cmp_lt0000> created at line 34.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <clk3> synthesized.
+
+
+Synthesizing Unit <UpCounter_SyncReset>.
+    Related source file is "sd.v".
+    Found 2-bit up counter for signal <Q>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <UpCounter_SyncReset> synthesized.
+
+
+Synthesizing Unit <Debouncing>.
+    Related source file is "Debouncing.v".
+Unit <Debouncing> synthesized.
+
+
+Synthesizing Unit <I2s>.
+    Related source file is "I2s.v".
+    Found 16x1-bit ROM for signal <$varindex0000> created at line 47.
+    Found 1-bit register for signal <Sin>.
+    Found 32-bit up counter for signal <i>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <I2s> synthesized.
+
+
+Synthesizing Unit <dec>.
+    Related source file is "Dec.v".
+WARNING:Xst:647 - Input <sec> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 10x7-bit ROM for signal <out_Amin2$mux0000>.
+    Found 10x7-bit ROM for signal <out_Amin1$mux0000>.
+    Found 10x7-bit ROM for signal <out_AH2$mux0000>.
+WARNING:Xst:737 - Found 7-bit latch for signal <out_min2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 7-bit latch for signal <out_min1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 7-bit latch for signal <out_H2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 7-bit latch for signal <out_H1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 7-bit latch for signal <out_Amin2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 7-bit latch for signal <out_Amin1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 7-bit latch for signal <out_AH2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 7-bit latch for signal <out_AH1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 1-of-4 decoder for signal <selector>.
+    Found 7-bit 3-to-1 multiplexer for signal <out_AH1$mux0000>.
+    Summary:
+	inferred   3 ROM(s).
+	inferred   7 Multiplexer(s).
+	inferred   1 Decoder(s).
+Unit <dec> synthesized.
+
+
+Synthesizing Unit <digital_loc>.
+    Related source file is "digital_loc.v".
+WARNING:Xst:1780 - Signal <control_code> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 1-bit latch for signal <condition_alarm>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 4-bit latch for signal <nextState>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 2-bit register for signal <Led2>.
+    Found 1-bit register for signal <dot>.
+    Found 2-bit register for signal <A_H1>.
+    Found 2-bit addsub for signal <A_H1$share0000>.
+    Found 4-bit register for signal <A_H2>.
+    Found 4-bit addsub for signal <A_H2$share0000>.
+    Found 4-bit register for signal <A_min1>.
+    Found 4-bit addsub for signal <A_min1$share0000>.
+    Found 4-bit register for signal <A_min2>.
+    Found 4-bit addsub for signal <A_min2$share0000>.
+    Found 1-bit register for signal <alarm_sound>.
+    Found 3-bit register for signal <H1>.
+    Found 3-bit addsub for signal <H1$share0000>.
+    Found 4-bit register for signal <H2>.
+    Found 4-bit addsub for signal <H2$share0000>.
+    Found 32-bit up counter for signal <interal_counter>.
+    Found 4-bit register for signal <min1>.
+    Found 4-bit addsub for signal <min1$share0000>.
+    Found 4-bit register for signal <min2>.
+    Found 3-bit comparator equal for signal <min2$cmp_eq0003> created at line 178.
+    Found 4-bit comparator equal for signal <min2$cmp_eq0004> created at line 178.
+    Found 4-bit comparator equal for signal <min2$cmp_eq0005> created at line 178.
+    Found 4-bit comparator equal for signal <min2$cmp_eq0006> created at line 178.
+    Found 33-bit comparator less for signal <min2$cmp_lt0000> created at line 147.
+    Found 3-bit comparator not equal for signal <min2$cmp_ne0005> created at line 178.
+    Found 4-bit comparator not equal for signal <min2$cmp_ne0006> created at line 178.
+    Found 4-bit comparator not equal for signal <min2$cmp_ne0007> created at line 178.
+    Found 4-bit comparator not equal for signal <min2$cmp_ne0008> created at line 178.
+    Found 4-bit addsub for signal <min2$share0000>.
+    Found 21-bit register for signal <old_value>.
+    Found 6-bit adder for signal <old_value$add0001> created at line 181.
+    Found 6-bit register for signal <sec>.
+    Found 4-bit register for signal <state>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  60 D-type flip-flop(s).
+	inferred   9 Adder/Subtractor(s).
+	inferred   9 Comparator(s).
+Unit <digital_loc> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 10x7-bit ROM                                          : 3
+ 16x1-bit ROM                                          : 1
+# Adders/Subtractors                                   : 9
+ 2-bit addsub                                          : 1
+ 3-bit addsub                                          : 1
+ 4-bit addsub                                          : 6
+ 6-bit adder                                           : 1
+# Counters                                             : 7
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 6
+# Registers                                            : 31
+ 1-bit register                                        : 19
+ 2-bit register                                        : 2
+ 21-bit register                                       : 1
+ 3-bit register                                        : 1
+ 4-bit register                                        : 7
+ 6-bit register                                        : 1
+# Latches                                              : 10
+ 1-bit latch                                           : 1
+ 4-bit latch                                           : 1
+ 7-bit latch                                           : 8
+# Comparators                                          : 13
+ 3-bit comparator equal                                : 1
+ 3-bit comparator not equal                            : 1
+ 33-bit comparator less                                : 5
+ 4-bit comparator equal                                : 3
+ 4-bit comparator not equal                            : 3
+# Multiplexers                                         : 1
+ 7-bit 3-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <AA/state/FSM> on signal <state[1:2]> with user encoding.
+Optimizing FSM <BB/state/FSM> on signal <state[1:2]> with user encoding.
+Optimizing FSM <CC/state/FSM> on signal <state[1:2]> with user encoding.
+Optimizing FSM <DD/state/FSM> on signal <state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+ 11    | unreached
+-------------------
+
+Synthesizing (advanced) Unit <I2s>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom__varindex0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <I2s> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 4
+ 10x7-bit ROM                                          : 3
+ 16x1-bit ROM                                          : 1
+# Adders/Subtractors                                   : 9
+ 2-bit addsub                                          : 1
+ 3-bit addsub                                          : 1
+ 4-bit addsub                                          : 6
+ 6-bit adder                                           : 1
+# Counters                                             : 7
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 6
+# Registers                                            : 81
+ Flip-Flops                                            : 81
+# Latches                                              : 10
+ 1-bit latch                                           : 1
+ 4-bit latch                                           : 1
+ 7-bit latch                                           : 8
+# Comparators                                          : 13
+ 3-bit comparator equal                                : 1
+ 3-bit comparator not equal                            : 1
+ 33-bit comparator less                                : 5
+ 4-bit comparator equal                                : 3
+ 4-bit comparator not equal                            : 3
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <Led2_0> in Unit <digital_loc> is equivalent to the following 2 FFs/Latches, which will be removed : <Led2_1> <alarm_sound> 
+INFO:Xst:2261 - The FF/Latch <out_AH1_2> in Unit <dec> is equivalent to the following 2 FFs/Latches, which will be removed : <out_AH1_3> <out_AH1_6> 
+WARNING:Xst:1710 - FF/Latch <out_AH1_5> (without init value) has a constant value of 0 in block <dec>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <sound/i_4> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_5> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_6> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_7> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_8> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_9> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_10> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_11> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_12> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_13> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_14> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_15> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_16> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_17> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_18> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_19> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_20> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_21> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_22> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_23> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_24> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_25> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_26> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_27> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_28> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_29> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_30> of sequential type is unconnected in block <digital_loc>.
+WARNING:Xst:2677 - Node <sound/i_31> of sequential type is unconnected in block <digital_loc>.
+
+Optimizing unit <digital_loc> ...
+WARNING:Xst:1294 - Latch <nextState_0> is equivalent to a wire in block <digital_loc>.
+WARNING:Xst:1294 - Latch <nextState_1> is equivalent to a wire in block <digital_loc>.
+WARNING:Xst:1294 - Latch <nextState_2> is equivalent to a wire in block <digital_loc>.
+WARNING:Xst:1294 - Latch <nextState_3> is equivalent to a wire in block <digital_loc>.
+
+Optimizing unit <dec> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block digital_loc, actual ratio is 37.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 253
+ Flip-Flops                                            : 253
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : digital_loc.ngr
+Top Level Output File Name         : digital_loc
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 28
+
+Cell Usage :
+# BELS                             : 1030
+#      GND                         : 1
+#      INV                         : 22
+#      LUT1                        : 8
+#      LUT2                        : 41
+#      LUT2_D                      : 2
+#      LUT2_L                      : 1
+#      LUT3                        : 237
+#      LUT3_D                      : 5
+#      LUT3_L                      : 4
+#      LUT4                        : 248
+#      LUT4_D                      : 28
+#      LUT4_L                      : 24
+#      MUXCY                       : 212
+#      MUXF5                       : 30
+#      MUXF6                       : 2
+#      VCC                         : 1
+#      XORCY                       : 164
+# FlipFlops/Latches                : 307
+#      FDC                         : 151
+#      FDCE                        : 40
+#      FDE                         : 55
+#      FDP                         : 5
+#      FDR                         : 2
+#      LD                          : 50
+#      LD_1                        : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 27
+#      IBUF                        : 5
+#      OBUF                        : 22
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                      319  out of    960    33%  
+ Number of Slice Flip Flops:            307  out of   1920    15%  
+ Number of 4 input LUTs:                620  out of   1920    32%  
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of     83    33%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------------------------+---------------------------------+-------+
+Clock Signal                                                     | Clock buffer(FF name)           | Load  |
+-----------------------------------------------------------------+---------------------------------+-------+
+twohundredHZ/out1                                                | BUFG                            | 116   |
+condition_alarm_not0001(nextState_mux0000<1>21:O)                | NONE(*)(condition_alarm)        | 1     |
+clk                                                              | BUFGP                           | 132   |
+sound/thirty_two_times_128KHz/out                                | NONE(sound/Sin)                 | 5     |
+print_satus/out_min2_or0000(print_satus/out_min2_or00001:O)      | NONE(*)(print_satus/out_min2_6) | 7     |
+print_satus/out_min1_or0000(print_satus/out_min1_or00001:O)      | NONE(*)(print_satus/out_min1_6) | 7     |
+print_satus/out_H2_or0000(print_satus/out_H2_or00001:O)          | NONE(*)(print_satus/out_H2_6)   | 7     |
+print_satus/out_H1_or0000(print_satus/out_H1_or00001:O)          | NONE(*)(print_satus/out_H1_6)   | 7     |
+print_satus/out_Amin2_or0000(print_satus/out_Amin2_or00001:O)    | NONE(*)(print_satus/out_Amin2_6)| 7     |
+print_satus/out_Amin1_or0000(print_satus/out_Amin1_or00001:O)    | NONE(*)(print_satus/out_Amin1_6)| 7     |
+print_satus/out_AH2_or0000(print_satus/out_AH2_or00001:O)        | NONE(*)(print_satus/out_AH2_6)  | 7     |
+print_satus/out_AH1_cmp_eq0000(print_satus/out_AH1_cmp_eq00001:O)| NONE(*)(print_satus/out_AH1_4)  | 4     |
+-----------------------------------------------------------------+---------------------------------+-------+
+(*) These 9 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------+------------------------------------+-------+
+Control Signal                                               | Buffer(FF name)                    | Load  |
+-------------------------------------------------------------+------------------------------------+-------+
+Led2<0>_inv(Led2<0>_inv1_INV_0:O)                            | NONE(sound/five_hundred_500KHz/i_0)| 103   |
+AA/state_FSM_Acst_FSM_inv(AA/state_FSM_Acst_FSM_inv1_INV_0:O)| NONE(AA/state_FSM_FFd1)            | 93    |
+-------------------------------------------------------------+------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.478ns (Maximum Frequency: 105.507MHz)
+   Minimum input arrival time before clock: 6.202ns
+   Maximum output required time after clock: 8.679ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'twohundredHZ/out1'
+  Clock period: 9.478ns (frequency: 105.507MHz)
+  Total number of paths / destination ports: 25507 / 172
+-------------------------------------------------------------------------
+Delay:               9.478ns (Levels of Logic = 6)
+  Source:            state_3 (FF)
+  Destination:       min1_0 (FF)
+  Source Clock:      twohundredHZ/out1 rising
+  Destination Clock: twohundredHZ/out1 rising
+
+  Data Path: state_3 to min1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             22   0.591   1.339  state_3 (state_3)
+     LUT3_D:I0->O          9   0.704   0.855  nextState_cmp_eq000211 (N77)
+     LUT3:I2->O           12   0.704   0.965  min1_and00021 (min1_and0002)
+     LUT4:I3->O            5   0.704   0.668  min1_mux0000<10>11 (N11)
+     LUT3:I2->O            1   0.704   0.424  min1_mux0000<10>25_SW0 (N204)
+     LUT4_L:I3->LO         1   0.704   0.104  min1_mux0000<10>18_SW1 (N197)
+     LUT4:I3->O            1   0.704   0.000  min1_mux0000<10>51 (min1_mux0000<10>)
+     FDCE:D                    0.308          min1_0
+    ----------------------------------------
+    Total                      9.478ns (5.123ns logic, 4.355ns route)
+                                       (54.1% logic, 45.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'condition_alarm_not0001'
+  Clock period: 2.480ns (frequency: 403.226MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.480ns (Levels of Logic = 1)
+  Source:            condition_alarm (LATCH)
+  Destination:       condition_alarm (LATCH)
+  Source Clock:      condition_alarm_not0001 falling
+  Destination Clock: condition_alarm_not0001 falling
+
+  Data Path: condition_alarm to condition_alarm
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               8   0.676   0.792  condition_alarm (condition_alarm)
+     LUT4:I2->O            1   0.704   0.000  condition_alarm_mux00002 (condition_alarm_mux0000)
+     LD:D                      0.308          condition_alarm
+    ----------------------------------------
+    Total                      2.480ns (1.688ns logic, 0.792ns route)
+                                       (68.1% logic, 31.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.650ns (frequency: 115.609MHz)
+  Total number of paths / destination ports: 74485 / 136
+-------------------------------------------------------------------------
+Delay:               8.650ns (Levels of Logic = 46)
+  Source:            sound/five_hundred_500KHz/i_0 (FF)
+  Destination:       sound/five_hundred_500KHz/i_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: sound/five_hundred_500KHz/i_0 to sound/five_hundred_500KHz/i_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  sound/five_hundred_500KHz/i_0 (sound/five_hundred_500KHz/i_0)
+     LUT1:I0->O            1   0.704   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<0>_rt (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<0> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<1> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<2> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<3> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<4> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<5> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<6> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<7> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<8> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<9> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<10> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<10>)
+     MUXCY:CI->O          34   0.331   1.298  sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<11> (sound/five_hundred_500KHz/Mcompar_i_cmp_lt0000_cy<11>)
+     LUT3:I2->O            1   0.704   0.000  sound/five_hundred_500KHz/Mcount_i_lut<0> (sound/five_hundred_500KHz/Mcount_i_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  sound/five_hundred_500KHz/Mcount_i_cy<0> (sound/five_hundred_500KHz/Mcount_i_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<1> (sound/five_hundred_500KHz/Mcount_i_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<2> (sound/five_hundred_500KHz/Mcount_i_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<3> (sound/five_hundred_500KHz/Mcount_i_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<4> (sound/five_hundred_500KHz/Mcount_i_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<5> (sound/five_hundred_500KHz/Mcount_i_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<6> (sound/five_hundred_500KHz/Mcount_i_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<7> (sound/five_hundred_500KHz/Mcount_i_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<8> (sound/five_hundred_500KHz/Mcount_i_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<9> (sound/five_hundred_500KHz/Mcount_i_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<10> (sound/five_hundred_500KHz/Mcount_i_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<11> (sound/five_hundred_500KHz/Mcount_i_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<12> (sound/five_hundred_500KHz/Mcount_i_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<13> (sound/five_hundred_500KHz/Mcount_i_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<14> (sound/five_hundred_500KHz/Mcount_i_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<15> (sound/five_hundred_500KHz/Mcount_i_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<16> (sound/five_hundred_500KHz/Mcount_i_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<17> (sound/five_hundred_500KHz/Mcount_i_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<18> (sound/five_hundred_500KHz/Mcount_i_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<19> (sound/five_hundred_500KHz/Mcount_i_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<20> (sound/five_hundred_500KHz/Mcount_i_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<21> (sound/five_hundred_500KHz/Mcount_i_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<22> (sound/five_hundred_500KHz/Mcount_i_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<23> (sound/five_hundred_500KHz/Mcount_i_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<24> (sound/five_hundred_500KHz/Mcount_i_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<25> (sound/five_hundred_500KHz/Mcount_i_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<26> (sound/five_hundred_500KHz/Mcount_i_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<27> (sound/five_hundred_500KHz/Mcount_i_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<28> (sound/five_hundred_500KHz/Mcount_i_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<29> (sound/five_hundred_500KHz/Mcount_i_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  sound/five_hundred_500KHz/Mcount_i_cy<30> (sound/five_hundred_500KHz/Mcount_i_cy<30>)
+     XORCY:CI->O           1   0.804   0.000  sound/five_hundred_500KHz/Mcount_i_xor<31> (sound/five_hundred_500KHz/Mcount_i31)
+     FDC:D                     0.308          sound/five_hundred_500KHz/i_31
+    ----------------------------------------
+    Total                      8.650ns (6.730ns logic, 1.920ns route)
+                                       (77.8% logic, 22.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sound/thirty_two_times_128KHz/out'
+  Clock period: 3.552ns (frequency: 281.532MHz)
+  Total number of paths / destination ports: 14 / 5
+-------------------------------------------------------------------------
+Delay:               3.552ns (Levels of Logic = 4)
+  Source:            sound/i_1 (FF)
+  Destination:       sound/i_3 (FF)
+  Source Clock:      sound/thirty_two_times_128KHz/out rising
+  Destination Clock: sound/thirty_two_times_128KHz/out rising
+
+  Data Path: sound/i_1 to sound/i_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  sound/i_1 (sound/i_1)
+     LUT1:I0->O            1   0.704   0.000  sound/Mcount_i_cy<1>_rt (sound/Mcount_i_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  sound/Mcount_i_cy<1> (sound/Mcount_i_cy<1>)
+     MUXCY:CI->O           0   0.059   0.000  sound/Mcount_i_cy<2> (sound/Mcount_i_cy<2>)
+     XORCY:CI->O           1   0.804   0.000  sound/Mcount_i_xor<3> (Result<3>)
+     FDC:D                     0.308          sound/i_3
+    ----------------------------------------
+    Total                      3.552ns (2.930ns logic, 0.622ns route)
+                                       (82.5% logic, 17.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'twohundredHZ/out1'
+  Total number of paths / destination ports: 60 / 60
+-------------------------------------------------------------------------
+Offset:              6.202ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       old_value_0 (FF)
+  Destination Clock: twohundredHZ/out1 rising
+
+  Data Path: reset to old_value_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            36   1.218   1.438  reset_IBUF (reset_IBUF)
+     LUT2:I0->O            1   0.704   0.455  old_value_and0000_SW0 (N103)
+     LUT4:I2->O           21   0.704   1.128  old_value_and0000 (old_value_and0000)
+     FDE:CE                    0.555          old_value_0
+    ----------------------------------------
+    Total                      6.202ns (3.181ns logic, 3.021ns route)
+                                       (51.3% logic, 48.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sound/thirty_two_times_128KHz/out'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            sound/Sin (FF)
+  Destination:       Sin (PAD)
+  Source Clock:      sound/thirty_two_times_128KHz/out rising
+
+  Data Path: sound/Sin to Sin
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.591   0.420  sound/Sin (sound/Sin)
+     OBUF:I->O                 3.272          Sin_OBUF (Sin)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'twohundredHZ/out1'
+  Total number of paths / destination ports: 64 / 18
+-------------------------------------------------------------------------
+Offset:              8.679ns (Levels of Logic = 4)
+  Source:            print_satus/clock_only/Q_0 (FF)
+  Destination:       postion_state<5> (PAD)
+  Source Clock:      twohundredHZ/out1 rising
+
+  Data Path: print_satus/clock_only/Q_0 to postion_state<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             29   0.591   1.436  print_satus/clock_only/Q_0 (print_satus/clock_only/Q_0)
+     LUT3:I0->O            1   0.704   0.424  print_satus/out<5>166_SW0 (N232)
+     LUT4:I3->O            1   0.704   0.424  print_satus/out<5>166 (print_satus/out<5>166)
+     LUT4:I3->O            1   0.704   0.420  print_satus/out<5>193 (postion_state_5_OBUF)
+     OBUF:I->O                 3.272          postion_state_5_OBUF (postion_state<5>)
+    ----------------------------------------
+    Total                      8.679ns (5.975ns logic, 2.704ns route)
+                                       (68.8% logic, 31.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.571ns (Levels of Logic = 1)
+  Source:            sound/thirty_two_times_128KHz/out (FF)
+  Destination:       S_CLK (PAD)
+  Source Clock:      clk rising
+
+  Data Path: sound/thirty_two_times_128KHz/out to S_CLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.591   0.708  sound/thirty_two_times_128KHz/out (sound/thirty_two_times_128KHz/out)
+     OBUF:I->O                 3.272          S_CLK_OBUF (S_CLK)
+    ----------------------------------------
+    Total                      4.571ns (3.863ns logic, 0.708ns route)
+                                       (84.5% logic, 15.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'condition_alarm_not0001'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              6.004ns (Levels of Logic = 2)
+  Source:            condition_alarm (LATCH)
+  Destination:       postion_state<6> (PAD)
+  Source Clock:      condition_alarm_not0001 falling
+
+  Data Path: condition_alarm to postion_state<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               8   0.676   0.932  condition_alarm (condition_alarm)
+     LUT4:I0->O            1   0.704   0.420  print_satus/out<5>193 (postion_state_5_OBUF)
+     OBUF:I->O                 3.272          postion_state_5_OBUF (postion_state<5>)
+    ----------------------------------------
+    Total                      6.004ns (4.652ns logic, 1.352ns route)
+                                       (77.5% logic, 22.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'print_satus/out_Amin1_or0000'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              7.827ns (Levels of Logic = 4)
+  Source:            print_satus/out_Amin1_5 (LATCH)
+  Destination:       postion_state<5> (PAD)
+  Source Clock:      print_satus/out_Amin1_or0000 falling
+
+  Data Path: print_satus/out_Amin1_5 to postion_state<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.499  print_satus/out_Amin1_5 (print_satus/out_Amin1_5)
+     LUT3:I1->O            1   0.704   0.424  print_satus/out<5>166_SW0 (N232)
+     LUT4:I3->O            1   0.704   0.424  print_satus/out<5>166 (print_satus/out<5>166)
+     LUT4:I3->O            1   0.704   0.420  print_satus/out<5>193 (postion_state_5_OBUF)
+     OBUF:I->O                 3.272          postion_state_5_OBUF (postion_state<5>)
+    ----------------------------------------
+    Total                      7.827ns (6.060ns logic, 1.767ns route)
+                                       (77.4% logic, 22.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'print_satus/out_AH1_cmp_eq0000'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              6.810ns (Levels of Logic = 3)
+  Source:            print_satus/out_AH1_2 (LATCH)
+  Destination:       postion_state<6> (PAD)
+  Source Clock:      print_satus/out_AH1_cmp_eq0000 rising
+
+  Data Path: print_satus/out_AH1_2 to postion_state<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD_1:G->Q             3   0.676   0.535  print_satus/out_AH1_2 (print_satus/out_AH1_2)
+     LUT4:I3->O            1   0.704   0.499  print_satus/out<6>112 (print_satus/out<6>112)
+     LUT4:I1->O            1   0.704   0.420  print_satus/out<6>1112 (postion_state_6_OBUF)
+     OBUF:I->O                 3.272          postion_state_6_OBUF (postion_state<6>)
+    ----------------------------------------
+    Total                      6.810ns (5.356ns logic, 1.454ns route)
+                                       (78.6% logic, 21.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'print_satus/out_min2_or0000'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              7.051ns (Levels of Logic = 4)
+  Source:            print_satus/out_min2_6 (LATCH)
+  Destination:       postion_state<6> (PAD)
+  Source Clock:      print_satus/out_min2_or0000 falling
+
+  Data Path: print_satus/out_min2_6 to postion_state<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.499  print_satus/out_min2_6 (print_satus/out_min2_6)
+     LUT3:I1->O            1   0.704   0.000  print_satus/out<6>184_F (N272)
+     MUXF5:I0->O           1   0.321   0.455  print_satus/out<6>184 (print_satus/out<6>184)
+     LUT4:I2->O            1   0.704   0.420  print_satus/out<6>1112 (postion_state_6_OBUF)
+     OBUF:I->O                 3.272          postion_state_6_OBUF (postion_state<6>)
+    ----------------------------------------
+    Total                      7.051ns (5.677ns logic, 1.374ns route)
+                                       (80.5% logic, 19.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'print_satus/out_H2_or0000'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              7.007ns (Levels of Logic = 4)
+  Source:            print_satus/out_H2_6 (LATCH)
+  Destination:       postion_state<6> (PAD)
+  Source Clock:      print_satus/out_H2_or0000 falling
+
+  Data Path: print_satus/out_H2_6 to postion_state<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.455  print_satus/out_H2_6 (print_satus/out_H2_6)
+     LUT3:I2->O            1   0.704   0.000  print_satus/out<6>184_F (N272)
+     MUXF5:I0->O           1   0.321   0.455  print_satus/out<6>184 (print_satus/out<6>184)
+     LUT4:I2->O            1   0.704   0.420  print_satus/out<6>1112 (postion_state_6_OBUF)
+     OBUF:I->O                 3.272          postion_state_6_OBUF (postion_state<6>)
+    ----------------------------------------
+    Total                      7.007ns (5.677ns logic, 1.330ns route)
+                                       (81.0% logic, 19.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'print_satus/out_min1_or0000'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              7.051ns (Levels of Logic = 4)
+  Source:            print_satus/out_min1_6 (LATCH)
+  Destination:       postion_state<6> (PAD)
+  Source Clock:      print_satus/out_min1_or0000 falling
+
+  Data Path: print_satus/out_min1_6 to postion_state<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.499  print_satus/out_min1_6 (print_satus/out_min1_6)
+     LUT3:I1->O            1   0.704   0.000  print_satus/out<6>184_G (N273)
+     MUXF5:I1->O           1   0.321   0.455  print_satus/out<6>184 (print_satus/out<6>184)
+     LUT4:I2->O            1   0.704   0.420  print_satus/out<6>1112 (postion_state_6_OBUF)
+     OBUF:I->O                 3.272          postion_state_6_OBUF (postion_state<6>)
+    ----------------------------------------
+    Total                      7.051ns (5.677ns logic, 1.374ns route)
+                                       (80.5% logic, 19.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'print_satus/out_H1_or0000'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              7.007ns (Levels of Logic = 4)
+  Source:            print_satus/out_H1_6 (LATCH)
+  Destination:       postion_state<6> (PAD)
+  Source Clock:      print_satus/out_H1_or0000 falling
+
+  Data Path: print_satus/out_H1_6 to postion_state<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.455  print_satus/out_H1_6 (print_satus/out_H1_6)
+     LUT3:I2->O            1   0.704   0.000  print_satus/out<6>184_G (N273)
+     MUXF5:I1->O           1   0.321   0.455  print_satus/out<6>184 (print_satus/out<6>184)
+     LUT4:I2->O            1   0.704   0.420  print_satus/out<6>1112 (postion_state_6_OBUF)
+     OBUF:I->O                 3.272          postion_state_6_OBUF (postion_state<6>)
+    ----------------------------------------
+    Total                      7.007ns (5.677ns logic, 1.330ns route)
+                                       (81.0% logic, 19.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'print_satus/out_Amin2_or0000'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              7.783ns (Levels of Logic = 4)
+  Source:            print_satus/out_Amin2_5 (LATCH)
+  Destination:       postion_state<5> (PAD)
+  Source Clock:      print_satus/out_Amin2_or0000 falling
+
+  Data Path: print_satus/out_Amin2_5 to postion_state<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.455  print_satus/out_Amin2_5 (print_satus/out_Amin2_5)
+     LUT3:I2->O            1   0.704   0.424  print_satus/out<5>166_SW0 (N232)
+     LUT4:I3->O            1   0.704   0.424  print_satus/out<5>166 (print_satus/out<5>166)
+     LUT4:I3->O            1   0.704   0.420  print_satus/out<5>193 (postion_state_5_OBUF)
+     OBUF:I->O                 3.272          postion_state_5_OBUF (postion_state<5>)
+    ----------------------------------------
+    Total                      7.783ns (6.060ns logic, 1.723ns route)
+                                       (77.9% logic, 22.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'print_satus/out_AH2_or0000'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              6.699ns (Levels of Logic = 3)
+  Source:            print_satus/out_AH2_5 (LATCH)
+  Destination:       postion_state<5> (PAD)
+  Source Clock:      print_satus/out_AH2_or0000 falling
+
+  Data Path: print_satus/out_AH2_5 to postion_state<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.499  print_satus/out_AH2_5 (print_satus/out_AH2_5)
+     LUT4:I1->O            1   0.704   0.424  print_satus/out<5>166 (print_satus/out<5>166)
+     LUT4:I3->O            1   0.704   0.420  print_satus/out<5>193 (postion_state_5_OBUF)
+     OBUF:I->O                 3.272          postion_state_5_OBUF (postion_state<5>)
+    ----------------------------------------
+    Total                      6.699ns (5.356ns logic, 1.343ns route)
+                                       (80.0% logic, 20.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.34 secs
+ 
+--> 
+
+Total memory usage is 245672 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   45 (   0 filtered)
+Number of infos    :   17 (   0 filtered)
+

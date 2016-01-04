@@ -1,0 +1,8 @@
+verilog isim_temp "../D_flipflop - Copy.v"
+verilog isim_temp "Dec.v"
+verilog isim_temp "Debouncing.v"
+verilog isim_temp "clock_divider.v"
+verilog isim_temp "../EX9_1/EX_9_3.v"
+verilog isim_temp "digital_loc.v"
+verilog isim_temp "simu.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

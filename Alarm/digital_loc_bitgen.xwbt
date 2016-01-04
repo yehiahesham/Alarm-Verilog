@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\yehia\Desktop\experiment\first try to collect all - Copy\digital_loc.ncd
+OUTFILE=C:\Users\yehia\Desktop\experiment\first try to collect all - Copy\digital_loc.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\yehia\Desktop\experiment\first try to collect all - Copy
+LICENSE=WebPack
+USER_INFO=_0_0_1341899873_010

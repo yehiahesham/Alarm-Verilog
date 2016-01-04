@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    16:21:15 05/04/2014 
+// Create Date:    13:24:50 04/08/2014 
 // Design Name: 
-// Module Name:    debouncing 
+// Module Name:    Debouncing 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
